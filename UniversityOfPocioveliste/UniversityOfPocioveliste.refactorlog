@@ -21,4 +21,39 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="PhoneNumber" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="5401bbcd-2363-4952-b149-cd3544ad4474" ChangeDateTime="02/17/2020 07:23:21">
+    <Property Name="ElementName" Value="[dbo].[UniversityEntity].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[UniversityEntity]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UniversityEntityID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e08ac33c-da44-40a8-a583-04096f802d13" ChangeDateTime="02/17/2020 07:27:21">
+    <Property Name="ElementName" Value="[dbo].[Address].[PersonID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Address]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Entity" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8840ed32-0d44-441b-bc3d-8d288d4bb641" ChangeDateTime="02/17/2020 07:32:34">
+    <Property Name="ElementName" Value="[dbo].[Address].[Entity]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Address]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UniversityEntityID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="74a7ddec-4b64-4895-85a0-fc549bc50c06" ChangeDateTime="02/17/2020 07:33:12">
+    <Property Name="ElementName" Value="[dbo].[PhoneNumber].[PersonID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[PhoneNumber]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UniversityEntityID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9ecda93c-f025-45e4-ab83-747037efaa55" ChangeDateTime="02/17/2020 07:34:17">
+    <Property Name="ElementName" Value="[dbo].[Faculty].[FoundedAt]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Faculty]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="UniversityEntityID" />
+  </Operation>
 </Operations>
